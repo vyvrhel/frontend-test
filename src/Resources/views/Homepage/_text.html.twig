@@ -1,0 +1,4 @@
+{% if data.title or data.description %}
+    {{ data.title }}
+    {{ data.description|raw }}
+{% endif %}

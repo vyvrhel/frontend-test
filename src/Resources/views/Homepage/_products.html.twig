@@ -1,0 +1,5 @@
+{% if data.products %}
+    {% for product in data.products %}
+        {% include 'Homepage/_product-side.html.twig' %}
+    {% endfor %}
+{% endif %}

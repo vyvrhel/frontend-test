@@ -1,0 +1,13 @@
+{
+    "name": "itstudio/fronted-test",
+    "description": "Frontend Coder / Frontend Developer job interview test",
+    "require": {
+        "twig/twig": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Martin Bulin",
+            "email": "bulin@itstudio.cz"
+        }
+    ]
+}
