@@ -80,4 +80,4 @@ npm run lint
 
 ### Odevzdání
 
-*TODO*
+Repozitář se svou hotovou prací uložte na některé z "gitovských" úložišť (např. [gitHub.com](https://github.com/) nebo [bitbucket.org](https://bitbucket.org/) a zašlete nám na něj odkaz.
