@@ -1,13 +1,9 @@
 /**
  * 01 - Variables
  */
-
-/* Declarative */
 @import '01-settings/_colors';
 @import '01-settings/_type-scales';
 @import '01-settings/_fonts';
-
-/* Semantic */
 @import '01-settings/_skins';
 @import '01-settings/_typography';
 @import '01-settings/_layout';
@@ -20,11 +16,11 @@
 @import '02-tools/_fonts';
 
 /**
- * 03 - 3rd Party (External libraries)
+ * 03 - Libs (External libraries)
  */
 
 /**
- * 04 - 3rd Party overrides (Customization of External libraries)
+ * 04 - Libs overrides (Customization of external libraries)
  */
 
 /**
@@ -43,31 +39,33 @@
  */
 
 /**
- * 07 - Elements (Inline/Inline-block components)
+ * Components:
+ * - prefix 'o-' for abstract extendable Objects
+ * - prefix 'c-' for concrete final Components
  */
-@import '07-elements/_button';
 
 /**
- * 08 - Layout (Components for Positioning)
+ * 07 - Elements (Inline components = Atoms)
  */
-
-/* Cross-project layout components */
-@import '08-layout/_document';
-@import '08-layout/_page';
-@import '08-layout/_block';
-@import '08-layout/_box';
-
-/* Project specific layout components */
-@import '08-layout/header/_header';
-@import '08-layout/content/_content';
-@import '08-layout/footer/_footer';
+@import '07-elements/_c-button';
 
 /**
- * 09 - Modules (Block Components)
+ * 08 - Modules (Block components = Molecules)
  */
-@import '09-modules/_text';
-@import '09-modules/_logo';
-@import '09-modules/_products';
-@import '09-modules/_product-side';
-@import '09-modules/_copyright';
-@import '09-modules/_categories';
+@import '08-modules/_o-box';
+@import '08-modules/_c-text';
+@import '08-modules/_c-logo';
+@import '08-modules/_c-products';
+@import '08-modules/_c-product-side';
+@import '08-modules/_c-copyright';
+@import '08-modules/_c-categories';
+
+/**
+ * 09 - Layout (Components for wrapping & positioning = Organisms)
+ */
+@import '09-layout/_o-document';
+@import '09-layout/_o-page';
+@import '09-layout/_o-block';
+@import '09-layout/_c-header';
+@import '09-layout/_c-content';
+@import '09-layout/_c-footer';
