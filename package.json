@@ -1,6 +1,6 @@
 {
   "name": "frontend-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Frontend Coder / Frontend Developer job interview test",
   "author": "IT STUDIO s.r.o <info@itstudio.cz> (https://www.itstudio.cz)",
   "private": true,
@@ -10,14 +10,14 @@
     "url": "https://vyvrhel@bitbucket.org/vyvrhel/frontend-test.git"
   },
   "devDependencies": {
-    "autoprefixer": "^9.3.1",
-    "cssnano": "^4.1.7",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-less": "^4.0.1",
     "gulp-postcss": "^8.0.0",
     "gulp-stylelint": "^8.0.0",
-    "stylelint": "^9.8.0"
+    "stylelint": "^9.10.1"
   },
   "scripts": {
     "build": "gulp build",

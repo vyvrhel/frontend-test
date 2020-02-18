@@ -14,7 +14,6 @@ const del = require('del');
 function cssBuild() {
     const plugins = [
         autoprefixer({
-            browsers: ['> 1%', 'not ie < 10'],
             flexbox: false,
             cascade: false,
         }),
@@ -38,7 +37,7 @@ function cssLint() {
             failAfterError: false,
             reporters: [{
                 formatter: 'string',
-                console: true
+                console: true,
             }]
         }));
 }
