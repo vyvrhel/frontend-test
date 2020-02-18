@@ -5,7 +5,7 @@ Jednoduchá/jednostránková webová aplikace určená pro otestování základn
 
 ## Cíl
 
-Na základě pokynů níže **nakódujte** a **naplnit daty** tuto  aplikaci tak, aby odpovídala následujícím grafickým návrhům:
+Na základě pokynů níže **nakódujte** a **naplňte daty** tuto aplikaci tak, aby odpovídala následujícím grafickým návrhům:
 
 - [Šířka displeje 479px](src/Resources/private/screens/frontend-test-479px.png)
 - [Šířka displeje 799px](src/Resources/private/screens/frontend-test-799px.png)
