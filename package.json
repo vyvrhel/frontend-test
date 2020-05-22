@@ -10,7 +10,7 @@
     "url": "https://vyvrhel@bitbucket.org/vyvrhel/frontend-test.git"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
     "del": "^3.0.0",
     "gulp": "^4.0.2",
