@@ -15,9 +15,9 @@ Na základě pokynů níže **nakódujte** a **naplňte daty** tuto aplikaci tak
 
 Pro běh aplikace budete potřebovat:
 
-- lokální webserver s PHP (např. http://www.wampserver.com/),
-- git (https://git-scm.com/),
-- npm (https://www.npmjs.com/),
+- lokální webserver s PHP 7.2 (např. http://www.wampserver.com/),
+- [git](https://git-scm.com/),
+- [Node.js](https://nodejs.org/en/) + [npm](https://www.npmjs.com/) (testováno na verzích 14.5.0 + 6.14.6),
 - příkazovou řádku :)
 
 ## Pokyny
